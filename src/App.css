@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-image: url('./images/background.png');
+  height: fit-content;
+  position: absolute;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 100px;
+  font-style: normal;
+  line-height: 150%;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.titleContainer {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.title {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.planetCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  transform: scale(1);
+  transition: 0.3s ease-in;
+}
+
+.planetCard:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in;
+}
+
+.img {
+  align-items: center;
+  display: flex;
+  height: 70%;
+}
+
+.Mercúrio {
+  height: 31px;
+  width: 41px;
+}
+
+.Vênus {
+  height: 76px;
+  width: 102px;
+}
+
+.Terra {
+  height: 79px;
+  width: 106px;
+}
+
+.Marte {
+  height: 50px;
+  width: 66px;
+}
+
+.Júpiter {
+  height: 204px;
+  width: 272px;
+}
+
+.Saturno {
+  height: 210.9px;
+  transform: rotate(-16.53deg);
+  width: 282.41px;
+}
+
+.Urano {
+  height: 109px;
+  width: 144px;
+}
+
+.Netuno {
+  height: 107px;
+  width: 144px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.missionCard {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 250px;
+  margin: 20px;
+  transform: scale(1);
+  transition: 0.3s ease-in;
+  width: 470px;
+}
+
+.missionCard:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in;
+}
+
+.missionsText {
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+  justify-content: center;
+}
+
+.missionCard h3 {
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 120%;
+  padding: 20px 10px;
+}
+
+.missionCard p {
+  display: flex;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 120%;
+  margin-top: 20px;
+  padding: auto;
+}
